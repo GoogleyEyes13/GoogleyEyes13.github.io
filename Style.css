@@ -91,13 +91,17 @@ body {
 }
 
 .MessageBubble.Katlyn {
-    background-color: #f5a5e1;
+  background-color: #e0a5f5;
 }
 
 .MessageBubble.Moetai {
-        background-color: #c6b29d;
+  background-color: #c6b29d;
 }
 
 .MessageBubble.Talia {
-        background-color: #9da0c6;
+  background-color: #9da0c6;
+}
+
+.MessageBubble.Jess {
+  background-color: #01ff24;
 }
