@@ -1,0 +1,102 @@
+/* ALL PAGES: Sticky header */
+.header {
+    position: sticky;
+    top: 0;
+    padding: 0px 0px;
+    margin: 0;
+}
+
+/* ALL PAGES: Border */
+body {
+    border: 4px solid black; 
+    margin: 0;             
+    padding: 0px 0px;
+}
+
+/* HOME PAGE: Button styling */
+.button img {
+    width: 100%;
+    height: auto;
+    border: 3px solid black;
+    display: block; 
+    object-fit: cover;
+}
+
+.button {
+    padding: 0;
+    border: 3px solid black;
+    background: none;
+    transition: box-shadow 0.3s ease;
+}
+
+.button:hover {
+    box-shadow: 0 0 20px 10px rgba(173, 255, 202, 0.8); 
+}
+
+/* CYBERPUNK PAGE: Message styling */
+.MessageContainer {
+  border: 5px solid #505050; 
+  border-radius: 12px;
+  padding: 10px;
+  background-color: #f9f9f9; 
+  height: 1000px;
+  overflow-y: auto;
+  margin: 20px; 
+  box-shadow: 4px 9px 9px grey;
+}
+
+.MessageBubble {
+  background-color: #eee;
+  border-radius: 10px;
+  padding: 10px;
+  width: fit-content;
+  max-width: 80%;
+  margin: 10px;
+  box-shadow: 5px 10px 10px grey;
+  font-family: Arial, sans-serif;
+}
+
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 5px;
+}
+
+.SenderName {
+  font-weight: bold;
+  font-size: 0.8em;
+  color: #333;
+  margin: 0;
+}
+
+.MessageDate {
+  font-size: 0.6em;
+  color: #5b5b5b;
+  margin: 0;
+  padding-top: 3px;
+}
+
+.MessageText {
+  margin: 0;
+  padding: 0;
+  line-height: 1.4;
+}
+
+/* CYBERPUNK MESSAGE: Colour per person */
+.MessageBubble.Empex {
+  background-color: #f4c29f; 
+}
+
+.MessageBubble.Katlyn {
+    background-color: #f5a5e1;
+}
+
+.MessageBubble.Moetai {
+        background-color: #c6b29d;
+}
+
+.MessageBubble.Talia {
+        background-color: #9da0c6;
+}
