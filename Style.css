@@ -39,7 +39,8 @@ body {
   border-radius: 12px;
   padding: 10px;
   background-color: #f9f9f9; 
-  height: 1000px;
+  max-height: 120vh;
+  height: auto;
   overflow-y: auto;
   margin: 20px; 
   box-shadow: 4px 9px 9px grey;
