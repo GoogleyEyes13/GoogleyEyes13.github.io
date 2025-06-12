@@ -105,3 +105,20 @@ body {
 .MessageBubble.Jess {
   background-color: #01ff24;
 }
+
+/* CYBERPUNK PAGES: News articles */
+.NewsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+
+.NewsContainer img {
+  max-width: 100%;            
+  height: auto;               
+  display: block;
+  margin-bottom: 15px;
+}
