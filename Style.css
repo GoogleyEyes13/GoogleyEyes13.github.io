@@ -13,6 +13,12 @@ body {
     padding: 0px 0px;
 }
 
+/* ALL PAGES: Fonts */
+@font-face {
+  font-family: 'CyberFont';
+  src: url('./Fonts/SAIBA-45.ttf') format('truetype');
+}
+
 /* HOME PAGE: Button styling */
 .button img {
     width: 100%;
@@ -34,6 +40,18 @@ body {
 }
 
 /* CYBERPUNK PAGE: Message styling */
+.ContainerHeading {
+  font-family: 'CyberFont', sans-serif;
+  font-size: 38px;
+  text-align: center;
+  text-shadow: 
+    -1px -1px 0 #ff0000,  
+     1px -1px 0 #ff0000,
+    -1px  1px 0 #ff0000,
+     1px  1px 0 #ff0000;
+  padding-bottom: 0px;
+}
+
 .MessageContainer {
   border: 5px solid #505050; 
   border-radius: 12px;
@@ -85,6 +103,21 @@ body {
   line-height: 1.4;
 }
 
+.MonthHeading .nav-link {
+  color: black;
+  font-family: 'CyberFont', sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+
+.MonthHeading .nav-link.active {
+  color: #ff0000 !important; 
+}
+
+.MonthHeading .nav-link:hover {
+  color: #ccda38 !important;
+}
+
 /* CYBERPUNK MESSAGE: Colour per person */
 .MessageBubble.Empex {
   background-color: #f4c29f; 
@@ -107,6 +140,17 @@ body {
 }
 
 /* CYBERPUNK PAGES: News articles */
+.NewsHeading {
+  font-family: 'CyberFont', sans-serif;
+  font-size: 32px;
+  text-align: center;
+  text-shadow: 
+    -1px -1px 0 #eeff41,  
+     1px -1px 0 #eeff41,
+    -1px  1px 0 #eeff41,
+     1px  1px 0 #eeff41;
+}
+
 .NewsContainer {
   display: flex;
   flex-direction: column;
@@ -122,3 +166,5 @@ body {
   display: block;
   margin-bottom: 15px;
 }
+
+
