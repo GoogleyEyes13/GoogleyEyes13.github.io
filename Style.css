@@ -16,7 +16,12 @@ body {
 /* ALL PAGES: Fonts */
 @font-face {
   font-family: 'CyberFont';
-  src: url('./Fonts/SAIBA-45.ttf') format('truetype');
+  src: url('./Fonts/SPACE\ JAEGER.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'CyberFontSmall';
+  src: url('./Fonts/BOXIGEN.ttf') format('truetype');
 }
 
 /* HOME PAGE: Button styling */
@@ -48,32 +53,30 @@ body {
   height: auto;
   overflow-y: auto;
   box-shadow: 4px 9px 9px grey;
-  padding: 5px;
-  margin: 5px;
 }
 
 .CampaignText {
-  font-family: 'CyberFont', sans-serif;
-  font-size: 25px;
+  font-family: 'CyberFontSmall', sans-serif;
+  font-size: 35px;
   text-align: center;
   text-shadow: 
-    -1px -1px 0 #ccda38,  
-     1px -1px 0 #ccda38,
-    -1px  1px 0 #ccda38,
-     1px  1px 0 #ccda38;
-  padding-top: 5px;
+    -0.5px -0.5px 0 #ccda38,  
+    0.5px -0.5px 0 #ccda38,
+    -0.5px 0.5px 0 #ccda38,
+    0.5px 0.5px 0 #ccda38;
+  padding-top: 4px;
 }
 
 /* CYBERPUNK PAGE: Message styling */
 .ContainerHeading {
   font-family: 'CyberFont', sans-serif;
-  font-size: 38px;
+  font-size: 32px;
   text-align: center;
   text-shadow: 
-    -1px -1px 0 #ff0000,  
-     1px -1px 0 #ff0000,
-    -1px  1px 0 #ff0000,
-     1px  1px 0 #ff0000;
+    -0.5px -0.5px 0 #fb7272,  
+    0.5px -0.5px 0 #fb7272,
+    -0.5px 0.5px 0 #fb7272,
+    0.5px 0.5px 0 #fb7272;
   padding-bottom: 0px;
 }
 
@@ -179,13 +182,13 @@ body {
 /* CYBERPUNK PAGES: News articles */
 .NewsHeading {
   font-family: 'CyberFont', sans-serif;
-  font-size: 32px;
+  font-size: 26px;
   text-align: center;
   text-shadow: 
-    -1px -1px 0 #eeff41,  
-     1px -1px 0 #eeff41,
-    -1px  1px 0 #eeff41,
-     1px  1px 0 #eeff41;
+    -0.5px -0.5px 0 #ccda38,  
+    0.5px -0.5px 0 #ccda38,
+    -0.5px 0.5px 0 #ccda38,
+    0.5px 0.5px 0 #ccda38;
 }
 
 .NewsContainer {
@@ -209,7 +212,6 @@ body {
   border: 5px solid #505050; 
   border-radius: 12px;
   background-color: #f9f9f9; 
-  max-height: 80vh;
   height: auto;
   overflow-y: auto;
   box-shadow: 4px 9px 9px grey;
