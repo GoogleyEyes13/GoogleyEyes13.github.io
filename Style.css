@@ -179,4 +179,17 @@ body {
   margin-bottom: 15px;
 }
 
+/* CYBERPUNK PAGES: My character */
+.MyCharacterContainer {
+  border: 5px solid #505050; 
+  border-radius: 12px;
+  background-color: #f9f9f9; 
+  max-height: 80vh;
+  height: auto;
+  overflow-y: auto;
+  box-shadow: 4px 9px 9px grey;
+  padding: 5px;
+  margin: 5px;
+}
+
 
