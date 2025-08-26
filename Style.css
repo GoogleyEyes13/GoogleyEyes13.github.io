@@ -136,11 +136,19 @@ body {
 }
 
 .MessageBubble.Jess {
-  background-color: #01ff24;
+  background-color: #6dff81;
 }
 
 .MessageBubble.Grizz {
-  background-color: rgb(236, 58, 58);
+  background-color: rgb(243, 85, 85);
+}
+
+.MessageBubble.Lyubov {
+  background-color: rgb(241, 243, 121);
+}
+
+.MessageBubble.Princess {
+  background-color: rgb(255, 144, 244);
 }
 
 /* CYBERPUNK PAGES: News articles */
