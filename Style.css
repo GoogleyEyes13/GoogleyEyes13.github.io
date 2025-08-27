@@ -233,6 +233,23 @@ body {
 .GrizzImage {
   height: auto;
   width: 100%;
+  position: relative;
+  z-index: 0;
+}
+
+.GrizzStatsHeading {
+  font-family: 'CyberFont', sans-serif;
+  font-size: 32px;
+  text-align: center;
+  text-shadow: 
+    -0.5px -0.5px 0 #fb7272,  
+    0.5px -0.5px 0 #fb7272,
+    -0.5px 0.5px 0 #fb7272,
+    0.5px 0.5px 0 #fb7272;
+  padding: 10px;
+  box-shadow: 0 0 20px 10px rgb(56, 56, 56); 
+  position: relative;
+  z-index: 1;
 }
 
 /* ALL PAGES: Back button */
