@@ -44,9 +44,16 @@ body {
     box-shadow: 0 0 20px 10px rgba(173, 255, 202, 0.8); 
 }
 
+/* CYBERPUNK PAGE: Background */
+.CyberpunkBG {
+  background-image: url("./Images/CyberpunkBG.jpg");
+  background-repeat: repeat;
+  background-position: center;
+}
+
 /* CYBERPUNK PAGE: Campaign length styling */
 .CampaignContainer {
-  border: 5px solid #505050; 
+  border: 5px solid black; 
   border-radius: 12px;
   background-color: #f9f9f9; 
   max-height: 80vh;
@@ -81,7 +88,7 @@ body {
 }
 
 .MessageContainer {
-  border: 5px solid #505050; 
+  border: 5px solid black; 
   border-radius: 12px;
   padding: 10px;
   background-color: #f9f9f9; 
@@ -209,7 +216,7 @@ body {
 
 /* CYBERPUNK PAGES: My character */
 .MyCharacterContainer {
-  border: 5px solid #505050; 
+  border: 5px solid black; 
   border-radius: 12px;
   background-color: #f9f9f9; 
   height: auto;
@@ -229,7 +236,7 @@ body {
   font-family: 'CyberFont', sans-serif;
   font-size: 32px;
   border: 3px solid black;
-  background: none;
+  background: white;
   transition: box-shadow 0.3s ease;
   width: 100%;
 }
