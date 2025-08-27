@@ -224,4 +224,19 @@ body {
   width: 100%;
 }
 
+/* ALL PAGES: Back button */
+.CyberpunkBackButton {
+  font-family: 'CyberFont', sans-serif;
+  font-size: 32px;
+  border: 3px solid black;
+  background: none;
+  transition: box-shadow 0.3s ease;
+  width: 100%;
+}
+
+.CyberpunkBackButton:hover {
+  box-shadow: 0 0 20px 10px #fb7272; 
+}
+
+
 
