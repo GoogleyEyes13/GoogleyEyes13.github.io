@@ -16,12 +16,12 @@ body {
 /* ALL PAGES: Fonts */
 @font-face {
   font-family: 'CyberFont';
-  src: url('./Fonts/SPACE\ JAEGER.otf') format('truetype');
+  src: url('./Fonts/SPACE.otf') format('opentype');
 }
 
 @font-face {
   font-family: 'CyberFontSmall';
-  src: url('./Fonts/BOXIGEN.ttf') format('truetype');
+  src: url('./Fonts/Universa-DEMO.otf') format('truetype');
 }
 
 /* HOME PAGE: Button styling */
@@ -186,6 +186,10 @@ body {
   background-color: rgb(255, 144, 244);
 }
 
+.MessageBubble.Paisley {
+  background-color: #d68a53; 
+}
+
 /* CYBERPUNK PAGES: News articles */
 .NewsHeading {
   font-family: 'CyberFont', sans-serif;
@@ -218,7 +222,7 @@ body {
 .MyCharacterContainer {
   border: 5px solid black; 
   border-radius: 12px;
-  background-color: #f9f9f9; 
+  background-color: #ffffff; 
   height: auto;
   overflow-y: auto;
   box-shadow: 4px 9px 9px grey;
