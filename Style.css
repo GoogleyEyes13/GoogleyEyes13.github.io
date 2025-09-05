@@ -6,6 +6,36 @@
     margin: 0;
 }
 
+.nav-tabs {
+    display: flex;
+    width: 100%;
+    background-color: white;
+    position: relative;
+    z-index: 0;
+}
+
+.nav-tabs .nav-item {
+    flex: 1;
+    text-align: center;
+}
+
+.nav-tabs .nav-link {
+    width: 100%;
+    border-radius: 0;
+    color: black;              
+    background-color: #b4c7beff;    
+    font-family: 'Courier New', monospace;
+    font-size: 18px; 
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.nav-tabs .nav-item .nav-link.active {
+    color: black;
+    background-color: #b4c7beff;
+    border: 1px solid #b4c7beff; 
+}
+
 /* ALL PAGES: Border */
 body {
     border: 4px solid black; 
