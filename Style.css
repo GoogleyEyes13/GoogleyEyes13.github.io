@@ -71,7 +71,7 @@ body {
 }
 
 .button:hover {
-    box-shadow: 0 0 20px 10px rgba(173, 255, 202, 0.8); 
+    box-shadow: 0 0 20px 10px #b4c7beff; 
 }
 
 /* CYBERPUNK PAGE: Background */
@@ -171,7 +171,7 @@ body {
 .MonthHeading .nav-link {
   color: black;
   font-family: 'CyberFont', sans-serif;
-  font-size: 18px;
+  font-size: 11px;
   text-align: center;
 }
 
