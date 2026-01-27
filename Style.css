@@ -3,6 +3,7 @@
     top: 0;
     padding: 0px 0px;
     margin: 0;
+    z-index: 1;
 }
 
 .SectionHeading {
@@ -19,6 +20,16 @@ body {
 }
 
 /* Session Recaps */
+.RecapLink {
+    display: inline-block;
+    transition: transform 0.3s ease;
+    transform-origin: center;
+}
+
+.RecapLink:hover {
+    transform: scale(1.08);
+}
+
 .SessionName {
     font-family: 'Merriweather', serif;
     font-size: 24px;
