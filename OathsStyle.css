@@ -1,0 +1,66 @@
+.Header {
+    position: sticky;
+    top: 0;
+    padding: 0px 0px;
+    margin: 0;
+    z-index: 1;
+}
+
+.SectionHeading {
+    top: 0;
+    padding: 0px 0px;
+    margin: 0;
+}
+
+body {
+    border: 4px solid black; 
+    background-color: rgb(224, 216, 203);
+    margin: 0;             
+    padding: 0px 0px;
+}
+
+/* Session Recaps */
+.RecapLink {
+    display: inline-block;
+    transition: transform 0.3s ease;
+    transform-origin: center;
+}
+
+.RecapLink:hover {
+    transform: scale(1.08);
+}
+
+.SessionCard {
+    display: flex;
+    flex-direction: column;
+}
+
+.ProgressWrapper {
+    margin-top: auto;
+}
+
+.SessionName {
+    font-family: 'Merriweather', serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    text-align: center !important;
+}
+
+.SessionNumber {
+    font-family: 'Merriweather', serif;
+    font-size: 17px;
+    text-align: center !important;
+}
+
+.SessionQuote {
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+    text-align: center !important;
+}
+
+.XPGained {
+    font-family: 'Merriweather', serif;
+    font-size: 16px;   
+    margin: 0;
+}

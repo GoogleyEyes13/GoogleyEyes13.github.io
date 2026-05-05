@@ -1,137 +1,156 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <title>Broken Oaths, Broken Streets</title>
-    <meta charset="utf-8"/>
-    <meta name="language" content="english"/>
+    <title>DnD Campaigns - Resource Hub</title>
+    <meta charset="utf-8" />
+    <meta name="language" content="english" />
+    <meta name="keywords" content="DnD, Resources, Home, Campaigns, Oneshots, DM" />
 
-    <meta name="keywords" content="Dnd, Resources, Campaign"/>
-    <meta name="description" content="Broken Oaths, Broken Streets DnD campaign resources"/>
-
-    <!-- Purely for discord preview -->
-    <meta property="og:title" content="Broken Oaths, Broken Streets">
-    <meta property="og:description" content="Broken Oaths, Broken Streets DnD campaign resources">
-    <meta property="og:url" content="https://googleyeyes13.github.io/">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Broken Oaths, Broken Streets">
-
+    <!-- Tab icon -->
+    <link rel="icon" href="Images/Icons/DndIcon.png" type="image/png">
+    
     <!-- CSS -->
     <link href="Framework/css/bootstrap.min.css" rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Great+Vibes&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link href="Style.css" rel="stylesheet"/>
 </head>
 
-<body>
+<body class="bg-secondary">
     <!-- Header -->
     <div class="Header">
-        <img src="Images/BrokenOathsHeader.png" alt="Header" width="100%">
+        <img src="Images/Headers/Header.png" alt="Header" width="100%">
     </div> 
 
-    <!-- Player Characters -->
-    <div class="SectionHeading">
-        <img src="Images/PlayerCharacterHeading.png" alt="Player Characters Heading" width="100%">
-    </div><br>
-
-    <div class="container-fluid">
-        <div class="row text-center pb-2">
-            <div class="col-sm-12 col-md-12 col-lg-4">
-                <img src="Images/AlyaHidayatCard.png" alt="Alya Hidayat" width="80%">
-            </div>
-            <div class="col-sm-12 col-md-12 col-lg-4">
-                <img src="Images/JaquaviusCard.png" alt="Jaquavius Dinkelberg III" width="80%">
-            </div>
-            <div class="col-sm-12 col-md-12 col-lg-4">
-                <img src="Images/UwaisCard.png" alt="Uwais" width="80%">
-            </div>
+    <!-- Navigation Bar (Tabs) -->
+    <nav class="navbar navbar-expand bg-dark">
+        <div class="container-fluid p-0">
+            <ul class="nav w-100 text-center">     
+                <li class="nav-item flex-fill">
+                    <button class="nav-link text-white active w-100" data-bs-toggle="tab" data-bs-target="#campaigns">
+                        Campaigns
+                    </button>
+                </li>
+                <li class="nav-item flex-fill">
+                    <button class="nav-link text-white w-100" data-bs-toggle="tab" data-bs-target="#oneshots">
+                        One-shots
+                    </button>
+                </li>
+                <li class="nav-item flex-fill">
+                    <button class="nav-link text-white w-100" data-bs-toggle="tab" data-bs-target="#dm">
+                        DM
+                    </button>
+                </li>
+            </ul>
         </div>
-        <div class="row text-center pb-2">
-            <div class="col-sm-12 col-md-12 col-lg-4">
-                <img src="Images/AdenineCard.png" alt="Adenine" width="80%">
-            </div>
-            <div class="col-sm-12 col-md-12 col-lg-4">
-                <img src="Images/ZephirealCard.png" alt="Zephireal Galvarin" width="80%">
-            </div>
-            <div class="col-sm-12 col-md-12 col-lg-4">
-                <img src="Images/CrabCard.png" alt="Crabs" width="80%">
-            </div>
-        </div>
-        <div class="row text-center pb-2">
-            <div class="col-sm-12 col-md-12 col-lg-4">
-            </div>
-            <div class="col-sm-12 col-md-12 col-lg-4">
-                <img src="Images/IdrisCard.png" alt="Idris Khalilur Rehman" width="80%">
-            </div>
-            <div class="col-sm-12 col-md-12 col-lg-4">
-            </div>
-        </div>
-    </div><br><br>
+    </nav>
 
-    <!-- Sessions Recaps -->
-    <div class="SectionHeading">
-        <img src="Images/SessionRecapsHeading.png" alt="Player Characters Heading" width="100%">
-    </div><br>
+    <!-- Tab content -->
+    <div class="tab-content">
+        <!-- Campaigns -->
+        <div class="tab-pane fade show active container-fluid" id="campaigns">
+            <br>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+                    <a href="Campaigns/Cyberpunk.html">
+                        <button class="button">
+                            <img src="Images/Icons/CyberpunkSlot.png" alt="Cyberpunk Slot 1">
+                        </button>
+                    </a>
+                </div>
 
-    <div class="container-fluid">
-        <div class="row text-center">
-            <div class="col-12">
-                <a href="https://docs.google.com/document/d/1dKsnsnh9JlEiKS7FGlO6mwgeKY1hYi86rouRA8eZXVE/edit?tab=t.0"><img class="RecapLink" src="Images/SessionRecapsButton.png" alt="Session Recaps Button" width="40%"></a>
-            </div>
-        </div><br>
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+                    <a href="Campaigns/RosenVeil.html">
+                        <button class="button">
+                            <img src="Images/Icons/RosenVeilSlot.png" alt="Rosen Veil Slot 2">
+                        </button>
+                    </a>
+                </div>
 
-        <div class="row">
-            <div class="col-sm-6 col-md-6 col-lg-3 SessionCard">
-                <p class="SessionName">-{ Blood In The Water }-</p>
-                <p class="SessionNumber">Session 1 - 30/11/2025</p>
-                <p class="SessionQuote">"And through defeat after defeat, their road leads to victory" - Karl Liebknecht.</p>
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+                    <a href="Campaigns/BrokenOaths.html">
+                        <button class="button">
+                            <img src="Images/Icons/BrokenOathsSlot.png" alt="Broken Oaths Slot 4">
+                        </button>
+                    </a>
+                </div>
 
-                <div class="ProgressWrapper">
-                    <br><p class="XPGained">Level 4 - XP Gained: 0</p>
-                    <div class="w3-light-grey">
-                        <div class="w3-container w3-center" style="width:60%; background-color:#8B0000; color: rgb(224, 216, 203);">9,000 / 15,000</div>
-                    </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+                    <button class="button">
+                        <img src="Images/Icons/FutureCampaignSlot.png" alt="Slot 5">
+                    </button>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+                    <button class="button">
+                        <img src="Images/Icons/FutureCampaignSlot.png" alt="Slot 6">
+                    </button>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+                    <button class="button">
+                        <img src="Images/Icons/FutureCampaignSlot.png" alt="Slot 6">
+                    </button>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-6 col-lg-3 SessionCard">
-                <p class="SessionName">-{ A Debtor's Due }-</p>
-                <p class="SessionNumber">Session 2 - 25/01/2026</p>
-                <p class="SessionQuote">"We are nothing but if not slaves to the cause" - Frantz Fanon.</p>
+        </div>
 
-                <div class="ProgressWrapper">
-                    <br><p class="XPGained">Level 4 - XP Gained: 2,000</p>
-                    <div class="w3-light-grey">
-                        <div class="w3-container w3-center" style="width:73%; background-color:#8B0000; color: rgb(224, 216, 203);">11,000 / 15,000</div>
-                    </div>
+        <!-- One-shots -->
+        <div class="tab-pane fade container-fluid" id="oneshots">
+            <br>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+                    <a href="Campaigns/Bilgewater.html">
+                        <button class="button">
+                            <img src="Images/Icons/BilgewaterSlot.png" alt="Bilgewater Slot 1">
+                        </button>
+                    </a>
                 </div>
-            </div>
-            <div class="col-sm-6 col-md-6 col-lg-3 SessionCard">
-                <p class="SessionName">-{ Velocior, Velocior! }-</p>
-                <p class="SessionNumber">Session 3 - 22/02/2026</p>
-                <p class="SessionQuote">"A rebellion is always either a cloak to hide a prince, or the swaddling wrapper of a new ruler" - Honore de Balzac.</p>
 
-                <div class="ProgressWrapper">
-                    <br><p class="XPGained">Level 5 - XP Gained: 4,000</p>
-                    <div class="w3-light-grey">
-                        <div class="w3-container w3-center" style="width:65%; background-color:#8B0000; color: rgb(224, 216, 203);">15,000 / 23,000</div>
-                    </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+                    <button class="button">
+                        <img src="Images/Icons/FutureCampaignSlot.png" alt="Slot 2">
+                    </button>
                 </div>
-            </div>
-            <div class="col-sm-6 col-md-6 col-lg-3 SessionCard">
+                
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+                    <button class="button">
+                        <img src="Images/Icons/FutureCampaignSlot.png" alt="Slot 3">
+                    </button>
+                </div>
             </div>
         </div>
-    </div><br><br>
 
-    <!-- NPC List -->
-    <div class="SectionHeading">
-        <img src="Images/NpcListHeading.png" alt="NPC List Heading" width="100%">
-    </div><br>
+        <!-- DM'd -->
+        <div class="tab-pane fade container-fluid" id="dm">
+            <br>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+                    <a href="Campaigns/EchoesOfMercastra.html">
+                        <button class="button">
+                            <img src="Images/Icons/MercastraSlot.png" alt="Mercastra Slot 1">
+                        </button>
+                    </a>
+                </div>
 
-    <!-- Resource Links -->
-    <div class="SectionHeading">
-        <img src="Images/ResourceLinksHeading.png" alt="Resource Links Heading" width="100%">
-    </div><br>
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+                    <button class="button">
+                        <img src="Images/Icons/FutureCampaignSlot.png" alt="Slot 2">
+                    </button>
+                </div>
+                
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+                    <button class="button">
+                        <img src="Images/Icons/FutureCampaignSlot.png" alt="Slot 3">
+                    </button>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Bootstrap JS (REQUIRED for tabs) -->
+    <script src="Framework/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
-

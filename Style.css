@@ -1,66 +1,269 @@
-.Header {
+/* ALL PAGES: Sticky header */
+.header {
     position: sticky;
     top: 0;
     padding: 0px 0px;
     margin: 0;
-    z-index: 1;
+    z-index: 10;
 }
 
-.SectionHeading {
-    top: 0;
-    padding: 0px 0px;
-    margin: 0;
+/* ALL PAGES: Navigation bar and back buttons*/
+.navbar .nav-link {
+    padding: 5px 0;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: rgb(39, 39, 39);
+    z-index: 0;
 }
 
+.navbar .nav-link:hover {
+    background-color: #dce6dd;
+    color: black !important;
+}
+
+/* ALL PAGES: Border */
 body {
     border: 4px solid black; 
-    background-color: rgb(224, 216, 203);
     margin: 0;             
     padding: 0px 0px;
 }
 
-/* Session Recaps */
-.RecapLink {
-    display: inline-block;
-    transition: transform 0.3s ease;
-    transform-origin: center;
+/* ALL PAGES: Fonts */
+@font-face {
+  font-family: 'CyberFont';
+  src: url('./Fonts/SPACE.otf') format('opentype');
 }
 
-.RecapLink:hover {
-    transform: scale(1.08);
+@font-face {
+  font-family: 'CyberFontSmall';
+  src: url('./Fonts/Universa-DEMO.otf') format('truetype');
 }
 
-.SessionCard {
-    display: flex;
-    flex-direction: column;
+@font-face {
+  font-family: 'OCRA_Extended';
+  src: url('./Fonts/OCR\ A\ Extended\ Regular.ttf') format('truetype');
 }
 
-.ProgressWrapper {
-    margin-top: auto;
+/* HOME PAGE: Button styling */
+.button img {
+    width: 100%;
+    height: auto;
+    border: 3px solid black;
+    display: block; 
+    object-fit: cover;
 }
 
-.SessionName {
-    font-family: 'Merriweather', serif;
-    font-size: 24px;
-    font-weight: bold;
-    margin: 0;
-    text-align: center !important;
+.button {
+    padding: 0;
+    border: 3px solid black;
+    background: none;
+    transition: box-shadow 0.3s ease;
 }
 
-.SessionNumber {
-    font-family: 'Merriweather', serif;
-    font-size: 17px;
-    text-align: center !important;
+.button:hover {
+    box-shadow: 0 0 20px 10px rgba(173, 255, 202, 0.8); 
 }
 
-.SessionQuote {
-    font-family: 'Merriweather', serif;
-    font-size: 18px;
-    text-align: center !important;
+/* CYBERPUNK PAGE: Campaign length styling */
+.CampaignContainer {
+  border: 5px solid black; 
+  border-radius: 12px;
+  background-color: #f9f9f9; 
+  max-height: 80vh;
+  height: auto;
+  overflow-y: auto;
+  box-shadow: 0px 0px 30px rgb(235, 237, 123);
 }
 
-.XPGained {
-    font-family: 'Merriweather', serif;
-    font-size: 16px;   
-    margin: 0;
+.CampaignText {
+  font-family: 'OCRA_Extended', sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+  text-align: center;
+  text-shadow: 
+    -0.5px -0.5px 0 #d1da28,  
+    0.5px -0.5px 0 #ccda38,
+    -0.5px 0.5px 0 #ccda38,
+    0.5px 0.5px 0 #ccda38;
+  padding-top: 4px;
+}
+
+/* CYBERPUNK PAGE: Message styling */
+.ContainerHeading {
+  font-family: 'OCRA_Extended', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  text-shadow: 
+    -0.5px -0.5px 0 #fb7272,  
+    0.5px -0.5px 0 #fb7272,
+    -0.5px 0.5px 0 #fb7272,
+    0.5px 0.5px 0 #fb7272;
+  padding-bottom: 0px;
+}
+
+.MessageContainer {
+  border: 5px solid black; 
+  border-radius: 12px;
+  padding: 10px;
+  background-color: #f9f9f9; 
+  max-height: 80vh;
+  height: auto;
+  overflow-y: auto;
+  margin: 15px; 
+  box-shadow: 0px 0px 30px rgb(235, 237, 123);
+}
+
+.MessageBubble {
+  background-color: #eee;
+  border-radius: 10px;
+  padding: 10px;
+  width: fit-content;
+  max-width: 80%;
+  margin: 10px;
+  box-shadow: 5px 10px 10px rgb(150, 150, 150);
+  font-family: Arial, sans-serif;
+}
+
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 5px;
+}
+
+.SenderName {
+  font-weight: bold;
+  font-size: 0.8em;
+  color: #333;
+  margin: 0;
+}
+
+.MessageDate {
+  font-size: 0.6em;
+  color: #5b5b5b;
+  margin: 0;
+  padding-top: 3px;
+}
+
+.MessageText {
+  margin: 0;
+  padding: 0;
+  line-height: 1.4;
+}
+
+.MonthHeading .nav-link {
+  color: black;
+  font-family: 'CyberFont', sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+
+.MonthHeading .nav-link.active {
+  color: #ff0000 !important; 
+}
+
+.MonthHeading .nav-link:hover {
+  color: #ccda38 !important;
+}
+
+/* CYBERPUNK MESSAGE: Colour per person */
+.MessageBubble.Empex {
+  background-color: #f4c29f; 
+}
+
+.MessageBubble.Katlyn {
+  background-color: #e0a5f5;
+}
+
+.MessageBubble.Moetai {
+  background-color: #c6b29d;
+}
+
+.MessageBubble.Talia {
+  background-color: #9da0c6;
+}
+
+.MessageBubble.Jess {
+  background-color: #6dff81;
+}
+
+.MessageBubble.Grizz {
+  background-color: rgb(243, 85, 85);
+}
+
+.MessageBubble.Lyubov {
+  background-color: rgb(241, 243, 121);
+}
+
+.MessageBubble.Princess {
+  background-color: rgb(255, 144, 244);
+}
+
+.MessageBubble.Paisley {
+  background-color: #d68a53; 
+}
+
+/* CYBERPUNK PAGES: News articles */
+.NewsHeading {
+  font-family: 'OCRA_Extended', sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+  text-align: center;
+  text-shadow: 
+    -0.5px -0.5px 0 #ccda38,  
+    0.5px -0.5px 0 #ccda38,
+    -0.5px 0.5px 0 #ccda38,
+    0.5px 0.5px 0 #ccda38;
+}
+
+.NewsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+
+.NewsContainer img {
+  max-width: 100%;            
+  height: auto;               
+  display: block;
+  margin-bottom: 15px;
+}
+
+/* CYBERPUNK PAGES: My character */
+.MyCharacterContainer {
+  border: 5px solid black; 
+  border-radius: 12px;
+  background-color: #ffffff; 
+  height: auto;
+  overflow-y: auto;
+  box-shadow: 4px 9px 9px grey;
+  padding: 5px;
+  margin: 5px;
+}
+
+.GrizzImage {
+  height: auto;
+  width: 100%;
+  position: relative;
+  z-index: 0;
+}
+
+.GrizzStatsHeading {
+  font-family: 'CyberFont', sans-serif;
+  font-size: 32px;
+  text-align: center;
+  text-shadow: 
+    -0.5px -0.5px 0 #fb7272,  
+    0.5px -0.5px 0 #fb7272,
+    -0.5px 0.5px 0 #fb7272,
+    0.5px 0.5px 0 #fb7272;
+  padding: 10px;
+  box-shadow: 0 0 20px 10px rgb(56, 56, 56); 
+  position: relative;
+  z-index: 1;
 }
