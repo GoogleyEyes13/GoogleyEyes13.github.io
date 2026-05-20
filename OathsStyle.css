@@ -19,6 +19,15 @@ body {
     padding: 0px 0px;
 }
 
+/* Campaign Info Section */
+.CampaignInfo {
+    font-family: 'Lucida Handwriting', cursive;
+    font-size: 24px;
+    margin: 0;
+    text-align: center !important;
+}
+
+
 /* Session Recaps */
 .RecapLink {
     display: inline-block;
