@@ -270,3 +270,8 @@ body {
     padding: 0px 0px;
     margin: 0;
 }
+
+/* ECHOES OF MERCASTRA: Background */
+.Background {
+  background-color: rgb(102, 119, 112);
+}
