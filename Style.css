@@ -125,14 +125,6 @@ body {
   font-family: Arial, sans-serif;
 }
 
-.Header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 8px;
-  margin-bottom: 5px;
-}
-
 .SenderName {
   font-weight: bold;
   font-size: 0.8em;
@@ -271,4 +263,10 @@ body {
 /* ECHOES OF MERCASTRA: Battlemaps */
 .Battlemap {
   border: 4px solid black;
+}
+
+.SectionHeading {
+    top: 0;
+    padding: 0px 0px;
+    margin: 0;
 }
