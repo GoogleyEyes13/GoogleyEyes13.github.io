@@ -267,3 +267,8 @@ body {
   position: relative;
   z-index: 1;
 }
+
+/* ECHOES OF MERCASTRA: Battlemaps */
+.Battlemap {
+  border: 4px solid black;
+}
