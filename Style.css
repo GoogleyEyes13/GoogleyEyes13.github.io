@@ -275,3 +275,9 @@ body {
 .Background {
   background-color: rgb(102, 119, 112);
 }
+
+/* ECHOES OF MERCASTRA: Music section */
+.MusicSessionTitle {
+  text-align: center;
+  font-weight: bold;
+}
